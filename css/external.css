@@ -1,0 +1,16 @@
+/* css/external.css */
+#judul {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(244, 244, 244);
+  }
+  
+  #daftar {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  #daftar li {
+    color: green;
+  }
+  

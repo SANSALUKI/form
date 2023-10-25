@@ -1,0 +1,34 @@
+ul {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  /* CSS untuk form container */
+.form-container {
+    text-align: center;
+  }
+  
+  /* CSS untuk button container */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* CSS untuk tombol "Batal" */
+  input[type="reset"] {
+    margin-right: auto; /* Menggeser tombol ke kiri */
+  }
+  
+  /* CSS untuk tombol "Kirim" */
+  input[type="submit"] {
+    margin-left: auto; /* Menggeser tombol ke kanan */
+  }
+
+  /* CSS untuk tombol Batal dan Kirim */
+button {
+    margin: 10px;
+  }
+  
+  

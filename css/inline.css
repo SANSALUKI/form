@@ -1,0 +1,13 @@
+li {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  th, td {
+    border: 1px solid black; /* Atur border sel-sel dengan garis hitam */
+
+    text-align: center; /* Pusatkan teks di sel-sel */
+  }
+
+  th {
+    background-color: #ccc; /* Warna latar belakang untuk sel header */
+  }

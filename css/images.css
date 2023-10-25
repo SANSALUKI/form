@@ -1,0 +1,32 @@
+/* CSS untuk gambar */
+img {
+    width: 100px; /* Atur ukuran gambar sesuai yang Anda inginkan */
+    height: 100px; /* Atur ukuran gambar sesuai yang Anda inginkan */
+  }
+  
+  /* CSS untuk container gambar */
+/* CSS untuk container gambar */
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Mengatur tata letak horizontal */
+    justify-content: center; /* Membuat gambar rata tengah horizontal */
+    align-items: center; /* Membuat gambar rata tengah vertikal */
+  }
+  
+  
+/* CSS untuk gambar-list (menghilangkan daftar item) */
+#gambar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* CSS untuk gambar dalam tata letak horizontal */
+  #gambar-list li img {
+    padding: 10px; /* Tambahkan padding sesuai yang Anda inginkan */
+    /* Atur ukuran gambar sesuai kebutuhan Anda */
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  

@@ -1,0 +1,36 @@
+#animated-element {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; /* Mengatur animasi menjadi tanpa batas */
+  }
+  
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  /* CSS untuk pesan sukses */
+.success-message {
+    display: none;
+    color: #00ac69;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    animation: fadeOut 3s ease 4s forwards;
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      display: none;
+    }
+  }
+  

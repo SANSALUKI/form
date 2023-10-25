@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(12,255,211);
+background: linear-gradient(225deg, rgba(12,255,211,1) 13%, rgba(94,194,184,1) 54%, rgba(7,126,0,1) 90%);
+    margin: 0;
+  }
+  
+  table {
+    margin: 20px;
+    border-collapse: collapse; /* Menghilangkan spasi antar border */
+
+    background-color: #fff; /* Warna latar belakang putih */
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  
